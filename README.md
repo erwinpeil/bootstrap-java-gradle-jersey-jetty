@@ -1,8 +1,8 @@
 # Bootstrap for Java, Gradle, Jersey, and Jetty
 
-This project contains a shell script that spins up a bootstrapped Java, Gradle, Jersey, Jetty hello world server. It's done generically so you can name your base resource package and project names. That way you don't have to fidget in your IDE to remove occurrences of another dev's name all over the place.
+This project contains a shell script that spins up a bootstrapped Java, Gradle, Jersey, Jetty hello world server. It's done generically so you can name your base resource package and project names.
 
-Dependencies: Java, Gradle, a bash shell, and a developer who's eager to start developing.
+Dependencies: Java, Gradle, a bash shell, and a developer.
 
 Usage:
 
