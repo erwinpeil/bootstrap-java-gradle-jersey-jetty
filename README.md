@@ -13,7 +13,7 @@ $ sh ./java-hello-world-creator.sh
 ```
 You'll be prompted to enter a project name and default resource package name. Once entered, the script handles all of the path and file generation and will spin up a Jetty server. Access the default endpoint here:
 
-__http://localhost:8080/rest/helloworld__
+__http://localhost:8080/rest/greeting__
 
 Expected response:
 

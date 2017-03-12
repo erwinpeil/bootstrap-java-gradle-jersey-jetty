@@ -124,7 +124,7 @@ public class HelloWorldResource {
 
     private static final Logger LOGGER = LogManager.getLogger(HelloWorldResource.class);
     @GET
-    @Path(\"/helloworld\")
+    @Path(\"/greeting\")
     public Response getResource() {
         LOGGER.info(\"HTTP Status \" + HttpStatus.SC_OK + \" \" +
                 HttpStatus.getStatusText(HttpStatus.SC_OK));
@@ -156,5 +156,5 @@ log4j.appender.rollingFile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p
 echo "Building..."
 ./gradlew build
 echo "Launching Jetty..."
-echo "Default endpoint: http://localhost:8080/rest/helloworld"
+echo "Default endpoint: http://localhost:8080/rest/greeting"
 ./gradlew jettyEclipseRun
